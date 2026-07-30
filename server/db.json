@@ -3,15 +3,17 @@
     {
       "id": "1",
       "email": "user@example.com",
-      "password": "123456",
+      "password": "4321",
       "role": "admin",
-      "blocked": false
+      "blocked": false,
+      "resetToken": null
     },
     {
       "email": "teste@gmail.com",
       "password": "1234",
       "id": "eytJzHbOJcQ",
-      "role": "admin"
+      "role": "admin",
+      "resetToken": null
     }
   ],
   "tasks": [
