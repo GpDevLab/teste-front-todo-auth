@@ -24,14 +24,17 @@
       "description": "Ler a documentação oficial e fazer um projeto.",
       "completed": false,
       "dueDate": "2026-08-01",
-      "dueTime": "19:00"
+      "dueTime": "19:00",
+      "priority": "Alta",
+      "favorite": false
     },
     {
       "id": "2",
       "userId": 1,
       "title": "Criar layout com TailwindCSS",
       "description": "Construir UI responsiva para a lista de tarefas.",
-      "completed": true
+      "completed": true,
+      "favorite": false
     },
     {
       "userId": "1",
@@ -57,6 +60,36 @@
       "dueDate": "2026-07-29",
       "dueTime": "19:00",
       "id": "aB8PEntaBMk"
+    },
+    {
+      "title": "refswf",
+      "description": "eswfef",
+      "dueDate": "",
+      "dueTime": "",
+      "priority": "Alta",
+      "completed": false,
+      "userId": "1",
+      "id": "pOqpCIBIEu0"
+    },
+    {
+      "title": "jtyjudty",
+      "description": "ytjdytj",
+      "dueDate": "",
+      "dueTime": "",
+      "priority": "Baixa",
+      "completed": false,
+      "userId": "1",
+      "id": "MmuE6IgatEw"
+    },
+    {
+      "title": "rgerg",
+      "description": "regeger",
+      "dueDate": "2026-07-30",
+      "dueTime": "12:00",
+      "priority": "Média",
+      "completed": false,
+      "userId": "1",
+      "id": "oawapUCRDF4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
