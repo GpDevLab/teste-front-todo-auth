@@ -1,26 +1,61 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "email": "user@example.com",
-        "password": "123456"
-      }
-    ],
-    "tasks": [
-      {
-        "id": 1,
-        "userId": 1,
-        "title": "Estudar Next.js",
-        "description": "Ler a documentação oficial e fazer um projeto.",
-        "completed": false
-      },
-      {
-        "id": 2,
-        "userId": 1,
-        "title": "Criar layout com TailwindCSS",
-        "description": "Construir UI responsiva para a lista de tarefas.",
-        "completed": true
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "id": "1",
+      "email": "user@example.com",
+      "password": "123456",
+      "role": "admin",
+      "blocked": false
+    },
+    {
+      "email": "teste@gmail.com",
+      "password": "1234",
+      "id": "eytJzHbOJcQ",
+      "role": "admin"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "userId": 1,
+      "title": "Estudar Next.js",
+      "description": "Ler a documentação oficial e fazer um projeto.",
+      "completed": false,
+      "dueDate": "2026-08-01",
+      "dueTime": "19:00"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "title": "Criar layout com TailwindCSS",
+      "description": "Construir UI responsiva para a lista de tarefas.",
+      "completed": true
+    },
+    {
+      "userId": "1",
+      "title": "Estudar react",
+      "description": "Fazer exercícios de react",
+      "completed": false,
+      "id": "q7bTVCoqvCc"
+    },
+    {
+      "userId": "eytJzHbOJcQ",
+      "title": "Finalizada tarefa",
+      "description": "feita tarefa proposta ergae",
+      "completed": false,
+      "id": "rNolaQqFKXI",
+      "dueDate": "2026-07-29",
+      "dueTime": "11:24"
+    },
+    {
+      "userId": "eytJzHbOJcQ",
+      "title": "finalizar tarefas",
+      "description": "jkfkukfyufyu",
+      "completed": true,
+      "dueDate": "2026-07-29",
+      "dueTime": "19:00",
+      "id": "aB8PEntaBMk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
